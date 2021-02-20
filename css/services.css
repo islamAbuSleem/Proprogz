@@ -1,0 +1,461 @@
+body{
+    padding-top: 70px;
+}
+
+.navbar-dark .navbar-brand span{
+    color:#E34B4B
+}
+.navbar-dark .navbar-brand{
+    font-weight: 800;
+    font-size: 29px;
+}
+button:focus{
+    outline: none;
+}
+
+/* menu */
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav > li {
+    color: #999;
+    font-size: 18px;
+    -webkit-transition: padding .4s ease;
+    -moz-transition: padding .4s ease;
+    -o-transition:padding .4s ease;
+    transition: padding .4s ease;
+     margin-left: 10px;
+}
+/*hover menu*/
+
+.navbar-dark .navbar-nav > li > a:hover,
+.navbar-dark .navbar-nav > li > a:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus{
+    background-color: #e34b4b;
+    color: #fff;
+    border-radius:6px;
+    padding-top: 5px;
+}
+.navbar-dark .navbar-nav .show > .nav-link,
+ .navbar-dark .navbar-nav .active > .nav-link,
+  .navbar-dark .navbar-nav .nav-link.show,
+ .navbar-dark .navbar-nav .nav-link.active{
+    background-color: #e34b4b;
+    color: #fff;
+    border-radius:6px;
+    padding-top: 5px;
+}
+.visible-md-block:hover,
+.visible-md-block:focus{
+    padding-left: 15px
+}
+/*end menu */
+
+/* start s-heading */
+.s-head{
+    background: url('../img/s-head.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    color: #fff;
+}
+.h-overlay{
+    position: relative;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.s-head span{
+    color: #e34b4b
+}
+.s-head h1{
+    margin-top: 11%;
+    margin-left: 23%;
+    font-weight: 600;
+}
+.s-head img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 497px;
+}
+
+.s-head h2{
+    position: absolute;
+    bottom: 5% !important;
+    right: 11% !important;
+    font-size: 38px;
+}
+/* end s-heading*/
+
+/* start services */
+.services{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.services .s-overlay{
+    position: relative;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.87);
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in-out;
+}
+.services .s-overlay:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+.services .s-section{
+    height: 430px;
+    margin-bottom: 30px
+}
+.services .s-section > img{
+    width: 89%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 5px;
+}
+.services .s-section .s-overlay > img{
+    width: 95px;
+    left: 39%;
+    position: absolute;
+    top: 30px;
+}
+.services .s-section .s-overlay button{
+    bottom: 12%;
+    position: absolute;
+    left: 32.5%;
+    background: transparent;
+    border: 1px #e34b4b solid;
+    border-radius: 5px;
+    padding: 6px;
+    width: 135px;
+    color: #e34b4b;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.services .s-section .s-overlay button:hover{
+    background-color: #e34b4b;
+    color: #fff;
+}
+/* end services */
+
+/* start portfolio */
+.portfolio{
+    height: 755px !important;
+    background-color: #1c1b1b;
+    overflow: hidden;
+    color: #fff;
+    text-align: center
+}
+.portfolio span{
+    color: #e34b4b
+}
+.portfolio h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.portfolio p{
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+    margin-top: 15px;
+}
+.portfolio img{
+    width: 100%;
+    margin-top: 40px;
+}
+.portfolio button{
+    margin-top: 50px;
+    background-color: #e0343b;
+    border: none;
+    height: 40px;
+    width: 310px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 5px;
+}
+.portfolio button:hover{
+    background-color: #f8000a;
+    cursor: pointer;
+}
+/* end portfolio */
+
+/*start blog*/
+.blog{
+    padding-top: 30px;
+}
+.blog img{
+    width: 100%;
+}
+.blog h1{
+    text-align: center;
+    color: #000;
+    margin-bottom: 60px;
+}
+.blog span{
+    color: #e34b4b
+}
+.blog p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/*end blog*/
+
+/*start footer */
+.footer{
+    background-color: #2a2a2a;
+    height: 250px;
+    overflow: hidden;
+}
+.footer h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 60px;
+}
+.footer span{
+    color: #e34b4b;
+}
+.footer ul{
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 25px;
+
+}
+.footer ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.fa{
+    color:#2a2a2a;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fa-facebook , .fa-google-plus{
+    background-color: #fff;
+}
+.fa:hover{
+  background-color: #505050;
+  color:#fff;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.fa-youtube, .fa-twitter{
+    background-color: #e0343b;
+}
+.fa-linkedin , .fa-rss{
+    background-color: #d8d9d8;
+}
+/*end footer*/
+.copy{
+    background-color: #5a5a5a;
+    height: 50px;
+    color: #f1f1f1;
+    overflow: hidden
+}
+.copy p{
+    line-height: 50px;
+}
+.copy span{
+    font-weight: 700
+}
+
+
+/* media query*/
+
+@media (max-width:576px) {
+    .services .s-section > img {
+        width: 74%;
+        position: absolute;
+        margin-top: 8%;
+        margin-left: 41px;
+    }
+    .s-head h2{
+        right: 30%;
+    }
+
+    .services .s-section .s-overlay > img {
+        left: 40% !important;
+    }
+    .services .s-section .s-overlay button {
+        left: 32.5% !important;
+    }
+    .services .s-section .s-overlay button:focus{
+        outline: none;
+    }
+    .portfolio h1{
+        font-size: 30px;
+    }
+    .portfolio p{
+        font-size: 14px;
+    }
+    .portfolio{
+        height: 540px !important;
+    }
+    .portfolio button{
+        width: 252px;
+        font-size: 15px;
+    }
+    .blog h1{
+        font-size: 30px;
+    }
+    .blog img {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .blog p{
+        width: 80%;
+        margin-left: 10%;
+
+    }
+    .footer h1{
+        font-size: 40px;
+    }
+    .footer ul li{
+        margin: 3px;
+    }
+    .footer ul li > .fa{
+       height: 30px;
+       width: 30px;
+       border-radius: 50%;
+       line-height: 30px;
+       font-size: 18px;
+     }
+
+}
+@media (min-width:576px) and (max-width:767px){
+    .s-head h1 {
+        margin-top: 23%;
+        margin-left: 7%;
+        font-size: 32px;
+    }
+    .s-head img{
+        width: 337px;
+        height: 77px;
+    }
+    .s-head h2 {
+        font-size: 30px !important;
+    }
+    .services .s-section .s-overlay > img {
+        left: 37% !important;
+        width: 70px !important;
+    }
+    .services .s-section{
+        height: 295px;
+    }
+    .services .s-section .s-overlay button {
+        left: 30.5% !important;
+        width: 102px !important;
+        padding: 4px !important;
+    }
+    .portfolio h1{
+        font-size: 33px;
+    }
+    .portfolio p{
+        font-size: 14.5px;
+    }
+    .portfolio{
+        height: 560px !important;
+    }
+    .blog h1{
+        font-size: 33px;
+    }
+    .blog p{
+        font-size: 14.5px;
+    }
+
+
+}
+
+
+
+@media(min-width:768px) and (max-width:991px){
+    .s-head h1 {
+        margin-top: 20%;
+        margin-left: 9%;
+        font-size: 36px;
+    }
+    .s-head img{
+        width: 360px;
+        height: 74px;
+    }
+    .s-head h2{
+        font-size: 29px;
+    }
+    .services .s-section .s-overlay > img{
+        width: 75px;
+        left: 33%;
+    }
+    .services .s-section{
+        height: 270px;
+    }
+    .services .s-section .s-overlay button{
+        left: 25.5%;
+        padding: 3px;
+        width: 110px;
+    }
+    .portfolio{
+        height: 600px !important;
+    }
+    .portfolio h1{
+        font-size: 33px;
+    }
+    .portfolio p{
+        font-size: 15px;
+    }
+    .blog h1{
+        font-size: 33px;
+    }
+    .blog p{
+        font-size: 15px;
+    }
+
+
+
+
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .s-head h1 {
+        margin-top: 15%;
+        margin-left: 16%;
+        font-weight: 600;
+        font-size: 38px;
+    }
+    .s-head img{
+        width: 428px;
+        height: 87px;
+    }
+    }
+    .s-head h2{
+        font-size: 33px;
+    }
+    .services .s-section .s-overlay > img{
+        left: 34%;
+    }
+    .services .s-section .s-overlay button{
+        left: 27.5%;
+    }
+    .portfolio{
+        height: 690px;
+    }
+
+}

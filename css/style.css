@@ -1,0 +1,871 @@
+body{
+    padding-top: 70px;
+}
+.navbar-dark .navbar-brand span{
+    color:#E34B4B
+}
+.navbar-dark .navbar-brand{
+    font-weight: 800;
+    font-size: 29px;
+}
+
+/* menu */
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav > li {
+    color: #999;
+    font-size: 18px;
+    -webkit-transition: padding .4s ease;
+    -moz-transition: padding .4s ease;
+    -o-transition:padding .4s ease;
+    transition: padding .4s ease;
+     margin-left: 10px;
+}
+/*hover menu*/
+
+.navbar-dark .navbar-nav > li > a:hover,
+.navbar-dark .navbar-nav > li > a:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus{
+    background-color: #e34b4b;
+    color: #fff;
+    border-radius:6px;
+    padding-top: 5px;
+}
+.visible-md-block:hover,
+.visible-md-block:focus{
+    padding-left: 15px
+}
+.slider .carousel-caption{
+    bottom:18%;
+    padding-right: 10px;
+    padding-left: 10px;
+    color:#fff
+}
+.slider .carousel-caption h4 {
+    color: #e34b4b;
+    font-size: 40px;
+}
+.slider .carousel-caption button{
+    width: 150px;
+    margin-top: 12%;
+    z-index: 999;
+}
+.slider .carousel-item .car-overlay{
+    background: rgba(0,0,0,.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute
+}
+.slider .carousel-indicators li{
+    border-radius: 50%;
+    height:10px;
+    width: 10px;
+    margin: 12px;
+    margin-bottom: 10px;
+    background:rgba(f,f,f,0.5);
+    cursor: pointer
+}
+.navbar-dark .navbar-nav .show > .nav-link,
+ .navbar-dark .navbar-nav .active > .nav-link,
+  .navbar-dark .navbar-nav .nav-link.show,
+ .navbar-dark .navbar-nav .nav-link.active{
+    background-color: #e34b4b;
+    color: #fff;
+    border-radius:6px;
+    padding-top: 5px;
+}
+/*start about us*/
+.about-us{
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.about-us h1{
+    margin-top: 30px;
+}
+.about-us h2{
+    margin-top: 10px;
+    color: #e34b4b;
+}
+.about-us .row span{
+    color: #e34b4b
+}
+.about-us .row h1{
+    font-size: 30px
+}
+.about-us .row p{
+    color: #888;
+    font-size: 22px;
+}
+.about-us .ab-section{
+    margin-top: 50px;
+    margin-bottom: 40px
+}
+/*end about us*/
+
+/*start our services*/
+.our-services{
+    margin-top: 30px;
+    text-align: center
+}
+.our-services span{
+    color: #e34b4b
+}
+.our-services .container > p{
+    margin-top: 30px
+}
+.our-services .img-center{
+    text-align: center;
+    margin-top: 30px
+}
+.our-services img{
+    width: 50%;
+    display: inline-block;
+}
+.our-services .btn{
+    margin-top: 20px;
+    width: 130px;
+    cursor: pointer;
+    margin-bottom: 30px
+}
+/*end our services*/
+
+/*start what our clients say*/
+.clients{
+    background: url('../img/test.jpg') center no-repeat fixed ;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+.clients .cl-overlay{
+    background: rgba(0,0,0,.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute
+}
+.clients h1{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 38px
+}
+.clients span{
+    color: #e34b4b
+}
+.clients .name{
+    display: inline-block;
+    font-size: 23px
+}
+.clients p{
+    color: #fff;
+    margin-bottom: 20px
+}
+.clients .carousel-item{
+    margin-bottom: 55px
+}
+.clients .carousel-indicators{
+    position: relative;
+    margin: auto;
+}
+.clients .carousel-indicators li{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.clients .carousel-indicators li img{
+    width: 100%;
+    display: block;
+    opacity: 0.5;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.clients .carousel-indicators li.active img{
+    opacity: 1.0;
+}
+.clients .carousel-indicators li img:hover{
+    opacity: 0.7;
+}
+.clients .carousel-inner{
+    margin-top: 40px
+}
+.clients .carousel{
+    top:35%
+}
+/*end what our clients say*/
+
+/*start meet our team*/
+.team span{
+    color: #e34b4b;
+}
+.team h1{
+    font-size: 38px;
+    margin-top: 30px
+}
+.team ul li .fa{
+    color: #888;
+    font-size: 20px
+}
+.team ul li{
+    margin:7px
+}
+.team .te-sect{
+    margin-top: 40px;
+}
+.team .te-sect img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #888;
+}.team .te-sect h3{
+    color: #888;
+    margin-top: 20px
+}
+.team .te-sect span{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 30px
+}
+/*end meet our team*/
+
+/* start contact our professional team */
+.pro-team{
+    overflow: hidden;
+    background: url('../img/contact.jpg') center no-repeat fixed;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+.pro-team .pro-overlay{
+    background: rgba(0,0,0,.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute
+}
+.pro-team h1{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 38px
+}
+.pro-team span{
+    color: #e34b4b
+}
+.pro-team form {
+    margin-top: 30px;
+    overflow: hidden;
+}
+.pro-team form input{
+    width: 300px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 30px;
+}
+.pro-team form input::-webkit-input-placeholder{
+    color: #fff;
+}
+.pro-team form input:focus{
+    outline: 0 none
+}
+.pro-team form textarea{
+    width: 678px;
+    height: 170px;
+    background: transparent;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-left: 14px;
+    color: #fff
+}
+.pro-team form textarea:focus{
+    outline: 0 none
+}
+.pro-team form textarea::-webkit-input-placeholder{
+    color:#fff
+}
+.pro-team button{
+   width: 150px;
+   height: 40px;
+   margin-top: 20px;
+   z-index: 999;
+}
+/* end contact our professional team */
+
+/* start keep in touch*/
+.ki-touch{
+    background-color: #f1f1f1;
+    overflow: hidden
+}
+.ki-touch h1{
+    font-size: 38px;
+    margin-top: 20px
+}
+.ki-touch span{
+    color: #e34b4b
+}
+.ki-touch p{
+    margin-top: 40px
+}
+.ki-touch .input-group{
+    width: 40%;
+    height: 50px;
+    left: 31.5%;
+    margin-top: 45px;
+    margin-bottom: 45px
+}
+.ki-touch .input-group input{
+    border-radius: 0
+}
+.ki-touch .btn-secondary{
+    background-color: #e34b4b;
+    border-color: #e34b4b;
+    width: 125px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 0
+}
+/* end keep in touch */
+
+/* start upcoming event*/
+.event{
+    background: url('../img/cs.jpg') center no-repeat fixed;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+    color: #fff
+}
+.event .ev-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+}
+.event h1{
+    font-size: 38px;
+    margin-top: 40px;
+    color: #fff
+}
+.event span{
+    color: #e34b4b
+}
+.event .row{
+    margin-top: 75px
+}
+.event p{
+    margin-top: 30px
+}
+.event .ev-time{
+    margin-top: 13%;
+    font-size: 55px;
+    margin-left: 40px
+}
+.event ul {
+    margin-top: -5px;
+    margin-left: 37px;
+    font-size: 19px;
+}
+.event ul li{
+    display: inline-block;
+    margin: 17px
+}
+.event .btn-success{
+    margin-left: 23%;
+    width: 150px;
+    height: 40px;
+    margin-top: 13px
+}
+/*end upcoming event*/
+
+/*start footer*/
+.footer{
+    background-color: #343A40;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.footer h2{
+    color: #e34b4b;
+    font-size: 28px;
+    margin-top: 30px;
+    font-weight: 700
+}
+.footer ul{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px
+}
+.footer ul li{
+    margin-top: 10px
+}
+.footer h5{
+    color: #f1f1f1;
+    font-weight: 700
+}
+.footer ul li img{
+    width: 147px;
+    height: 108px
+}
+.footer span{
+    font-size: 15px;
+    color: #888
+}
+/*end footer*/
+.copy{
+    background-color: #5a5a5a;
+    height: 50px;
+    color: #f1f1f1;
+    overflow: hidden
+}
+.copy p{
+    line-height: 50px;
+}
+.copy span{
+    font-weight: 700
+}
+
+#load{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 9999;
+}
+
+.loading-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+.loading-text span {
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+.loading-text span:nth-child(1) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0s infinite linear alternate;
+          animation: blur-text 1.5s 0s infinite linear alternate;
+}
+.loading-text span:nth-child(2) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
+          animation: blur-text 1.5s 0.2s infinite linear alternate;
+}
+.loading-text span:nth-child(3) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
+          animation: blur-text 1.5s 0.4s infinite linear alternate;
+}
+.loading-text span:nth-child(4) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
+          animation: blur-text 1.5s 0.6s infinite linear alternate;
+}
+.loading-text span:nth-child(5) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
+          animation: blur-text 1.5s 0.8s infinite linear alternate;
+}
+.loading-text span:nth-child(6) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1s infinite linear alternate;
+          animation: blur-text 1.5s 1s infinite linear alternate;
+}
+.loading-text span:nth-child(7) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
+          animation: blur-text 1.5s 1.2s infinite linear alternate;
+}
+
+@-webkit-keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+}
+
+@keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+}
+
+/* media Query */
+
+/* from 0 to mobile */
+
+@media (max-width:767px)
+{
+    h1{
+        font-size: 30px !important;
+    }
+    h2{
+        font-size: 25px !important;
+    }
+    h3{
+        font-size: 22px !important;
+    }
+    p{
+        font-size: 15px !important;
+    }
+    .slider .carousel-caption{
+        bottom: 22%;
+    }
+    .slider .carousel-caption h4 {
+        font-size: 20px;
+    }
+    .slider .carousel-caption h1{
+        font-size: 26px;
+    }
+    .slider .carousel-caption button{
+        width: 92px;
+        margin-top: 4%;
+        height: 31px;
+        font-size: 11px;
+        z-index: 999;
+    }
+    .slider .carousel-indicators li{
+        height: 5px;
+        width: 5px;
+        margin: 5px;
+        margin-bottom: 0px;
+    }
+    .about-us{
+        padding-bottom: 30px;
+    }
+    .about-us .ab-section{
+        margin-top: 15px;
+        margin-bottom: 0
+    }
+    .our-services{
+        padding-bottom: 20px;
+    }
+    .our-services img{
+        width: 35%;
+    }
+    .our-services .btn{
+        margin-top: 5px;
+        width: 100px;
+        margin-bottom: 10px
+    }
+    .clients{
+        min-height: 330px;
+    }
+    .clients p{
+        margin-bottom: 15px;
+    }
+    .clients .carousel-item{
+        margin-bottom: 33px;
+    }
+    .pro-team{
+        min-height: 490px;
+    }
+    .pro-team form input{
+        width: 260px;
+        margin: 1px;
+    }
+    .pro-team form textarea{
+        width: 260px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .pro-team button{
+        width: 95px;
+        height: 38px;
+        margin-top: 50%;
+        right: 36%;
+        position: absolute;
+        z-index: 999;
+    }
+    .ki-touch{
+        padding-bottom: 10px;
+    }
+    .ki-touch .input-group{
+        display: block
+    }
+    .input-group .form-control:not(:last-child),
+     .input-group-addon:not(:last-child),
+     .input-group-btn:not(:last-child) > .btn,
+     .input-group-btn:not(:last-child) > .btn-group > .btn,
+     .input-group-btn:not(:last-child) > .dropdown-toggle,
+     .input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle),
+     .input-group-btn:not(:first-child) > .btn-group:not(:last-child) > .btn{
+        width: 180%;
+        right: 46%;
+        bottom: 40%;
+     }
+      .input-group .form-control:not(:last-child)::-webkit-input-placeholder{
+
+        text-align: center;
+      }
+      
+     .input-group-btn:not(:first-child) > .btn,
+      .input-group-btn:not(:first-child) > .btn-group{
+        margin-left: 13px;
+        width: 100px;
+        height: 32px;
+        font-size: 14px;
+      }
+      .event{
+          min-height: 460px;
+
+      }
+
+      .event .row{
+        margin-top: 36px;
+      }
+      .event h3{
+          margin-bottom: -20px;
+      }
+      .event p{
+          text-align: center
+      }
+      .more{
+          font-size: 14px !important;
+      }
+      .event .ev-time{
+        margin-left: 30%;
+      }
+      .event ul{
+        margin-top: -8px;
+        margin-left: 92px;
+        font-size: 11px;
+      }
+      .event ul li{
+        margin: 10px;
+      }
+      .event .btn-success{
+        margin-left: 38%;
+        width: 87px;
+        height: 32px;
+        margin-top: -3px;
+        font-size: 11px;
+      }
+
+      .footer ul{
+          font-size: 17px;
+      }
+
+
+
+}
+
+/* small screen */
+
+@media(min-width:768px) and (max-width:991px)
+{
+    p{
+        font-size: 17px !important;
+    }
+    .slider .carousel-caption h4 {
+        font-size: 28px;
+    }
+    .slider .carousel-caption h1{
+        font-size: 35px;
+    }
+    .our-services .btn{
+        font-size: 12px;
+        width: 80px;
+    }
+    .pro-team{
+        min-height: 463px;
+    }
+    .pro-team form input{
+        width: 161px;
+    }
+    .pro-team form textarea{
+        width: 400px;
+    }
+    .pro-team form{
+        margin-top: 9px;;
+    }
+    .pro-team button{
+        width: 80px;
+        z-index: 999;
+    }
+    .ki-touch{
+        padding-bottom: 15px;
+    }
+    .ki-touch .input-group{
+        height: none;
+    }
+   .ki-touch .input-group{
+       display: block;
+   }
+   .ki-touch .input-group .form-control:not(:last-child),
+    .input-group-addon:not(:last-child),
+     .input-group-btn:not(:last-child) > .btn,
+      .input-group-btn:not(:last-child) > .btn-group > .btn,
+       .input-group-btn:not(:last-child) > .dropdown-toggle,
+        .input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle),
+    .input-group-btn:not(:first-child) > .btn-group:not(:last-child) > .btn{
+        width: 100%;
+        margin-top: -20px;
+    }
+    .input-group .form-control:not(:first-child),
+     .input-group-addon:not(:first-child),
+     .input-group-btn:not(:first-child) > .btn,
+     .input-group-btn:not(:first-child) > .btn-group > .btn,
+     .input-group-btn:not(:first-child) > .dropdown-toggle,
+     .input-group-btn:not(:last-child) > .btn:not(:first-child),
+     .input-group-btn:not(:last-child) > .btn-group:not(:first-child) > .btn{
+        width: 39%;
+        font-size: 14px;
+        height: 35px;
+        margin-top: 3%;
+        left: 30%;
+     }
+     .event .ev-time{
+         font-size: 40px;
+     }
+     .event ul{
+        margin-top: -13px;
+        margin-left: 36px;
+        font-size: 12px;
+     }
+     .event ul li{
+         margin: 15px
+     }
+     .event .btn-success{
+        margin-left: 30%;
+        width: 100px;
+        height: 34px;
+        font-size: 13px;
+     }
+     .more{
+         font-size: 14px !important;
+     }
+     .footer h2{
+         font-size: 22px !important;
+     }
+     .footer ul{
+         font-size: 15px;
+     }
+     .footer ul li img{
+        width: 110px;
+        height: 80px;
+     }
+     .footer h5{
+         font-size: 17px;
+     }
+     .footer span{
+         display: none;
+     }
+     .footer{
+         height: 355px;
+     }
+
+}
+
+/* medium screen */
+
+@media (min-width:992px) and (max-width:1199px)
+{
+    .pro-team form input{
+        width: 256px;
+        margin: 21px;
+    }
+    .pro-team form textarea{
+        width: 580px;
+    }
+    .ki-touch .input-group{
+        width: 50%;
+        left: 25.5%;
+    }
+    .footer h2{
+        font-size: 24px;
+    }
+    .footer ul{
+        font-size: 17px;
+    }
+    .footer ul li img{
+        width: 140px;
+    }
+    .footer span{
+        font-size: 10.8px;
+    }
+
+
+}
+#scroll-top{
+    height: 40px;
+    width: 50px;
+    color: #f1f1f1;
+    background-color: #222;
+    font-size: 32px;
+    padding-left: 9px;
+    border-radius: 8px;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none
+}
+#scroll-top:hover{
+    background-color: #000;
+}
+#scroll-top .fa-chevron-up{
+    position: absolute;
+    padding-top: 1px;
+}
